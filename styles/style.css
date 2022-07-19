@@ -168,3 +168,26 @@ margin-right: 21px;
 
 
 /* upcoming matches styles */
+
+ .versus{
+    display: grid;
+   
+    justify-items: center;
+
+} 
+
+.flags{
+   
+   align-items: center;
+   justify-items: center;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);  
+   
+}
+.versus-content{
+    margin-top: -50px;
+}
+.versus-text{
+    text-align: center;
+}
+
