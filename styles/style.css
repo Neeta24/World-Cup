@@ -1,0 +1,22 @@
+.body{
+    width: 1600px;
+    background-color: #FFFFFF;
+}
+
+main{ 
+display: flex;
+justify-content: center;
+
+}
+.container{
+    width:1321px;
+    /* height:646px; */
+    background-color: bisque;
+    border-radius: 30px;
+    
+}
+.hero-container{
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
