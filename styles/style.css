@@ -1,17 +1,22 @@
+/* fonts links */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Lobster+Two:ital@1&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+
 .body{
     width: 1600px;
     background-color: #FFFFFF;
+    
 }
 
 main{ 
 display: flex;
 justify-content: center;
+font-family: 'Poppins', sans-serif;
 
 }
 .container{
     width:1321px;
-    /* height:646px; */
-    background-color: bisque;
+     height:646px;
+    background-color: #161616;
     border-radius: 30px;
     
 }
@@ -19,4 +24,34 @@ justify-content: center;
    display: flex;
    justify-content: center;
    margin-top: 30px;
+   padding-left: 105px;
+}
+
+.hero-content{
+    width: 530px;
+    padding-top: 110px;
+    color:#FFFFFF
+    
+}
+.heading-text{
+    font-size: 70px;
+    line-height: 80px;
+   margin: 0;
+    
+}
+.heading-pera{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.animated{
+    margin-top: 30px;
+    Padding:16px 25px 16px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.fa-angle-right{
+    margin-left: 10px;
+}
+.hero-img img{
+   width: 580px;
 }
