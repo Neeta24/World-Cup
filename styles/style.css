@@ -267,9 +267,8 @@ media queries
 }
 .hero-container{
     flex-direction: column;
-    
     align-items: center;
-    padding-left: 0px;;
+    padding-left: 0px;
 }
 .hero-content{
     width: 258px;
@@ -350,6 +349,128 @@ align-items: center;
   align-items: center;  
   justify-content:space-between;
 }
+
+}
+
+/* --------------------------
+responsive for tab design
+---------------------------- */
+
+@media only screen and (min-width:481px) and (max-width:834px){
+
+.main{
+    width: 100%;
+}
+    .container{
+        width: 734px;  
+        height: 470px;
+    }
+    .hero-container{
+       padding-left: 0px;
+       margin-top: 0px;
+    
+
+    }
+    .hero-content{
+       margin-top: 15%;
+        margin-left:7%;
+        padding-top: 0px;
+        
+
+    }
+    .heading-text{
+       
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .heading-pera{
+      width: 316px;
+        
+         white-space: nowrap; 
+           overflow: hidden;
+          
+    }
+    .hero-img img{
+        width: 323px;
+        height:340px;
+        
+        margin-top: 40%
+
+}
+.blog{
+    width:734px;
+    margin-top:70px;
+
+}
+.thumbnail{
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogs{
+   width:100%;
+   height:0px;
+   padding:0px;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+.blogs-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.items-one,.items-two{
+    border: 1px solid #E8E8E8;
+}
+.blog-live-detail{
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 20%;
+}
+
+.items-one{padding: 17px 28px;}
+.items-two{padding: 17px 68px;}
+.items-three{padding: 17px 92px;
+background-color: #3a3939;
+color: #FFFFFF;
+}
+
+.footer-details{
+    width:734px;
+    padding: 0px 140px;
+    gap:10px;
+ }
+ .footer-text{
+ font-size: 22px;
+ text-align: center;
+ 
+ }
+ .horizintal-line{
+ width:734px;
+ margin:0px;
+ align-items: center;
+ }
+ .footer-links{
+    width:635px;
+   margin-top:20px;
+    text-align: center;
+    justify-content:space-between;
+    
+ }
+ .social{
+     margin-top: 20px;
+   align-items: center;  
+   justify-content:space-between;
+ }
+
+
+
+
+
+
+
+
+
 
 
 }
