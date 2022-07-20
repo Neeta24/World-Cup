@@ -206,3 +206,41 @@ margin-right: 21px;
     text-align: center;
 }
 
+/* group page styles */
+
+.group{
+width: 927px;
+background-color: #161616;;
+border-radius: 30px;
+color: #FFFFFF;
+padding-top: 5%;
+
+}
+.groups{
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+.france-flag{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.germany-flag{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.match-groups{
+    align-items: center;
+    justify-items: center;
+     display:grid;
+     border: 1px solid #ffffff;
+     margin:0 10px;
+     padding-bottom: 20px;
+     border-radius: 10px;
+
+}
