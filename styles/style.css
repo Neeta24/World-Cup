@@ -175,6 +175,12 @@ font-size: 16px;
 margin-right: 21px;
 }
 
+.icon-color{
+    color: #FFFFFF;
+   padding: 0 10px;
+   text-align: center;
+}
+
 
 /* upcoming matches styles */
 
