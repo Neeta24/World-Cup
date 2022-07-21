@@ -489,7 +489,7 @@ responsive for tab design
 .items-one{padding: 17px 28px;}
 .items-two{padding: 17px 68px;}
 .items-three{padding: 17px 92px;
-background-color: #3a3939;
+background-color: #F49F1C;
 color: #FFFFFF;
 }
 
@@ -525,7 +525,7 @@ color: #FFFFFF;
 
  .new-button{
     visibility: visible;
-    background-color: #161616;
+    background-color: #F49F1C;
     padding:12px 29px;
     border-radius: 5px; 
    border-style: none;
