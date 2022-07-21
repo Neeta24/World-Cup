@@ -12,6 +12,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 font-family: 'Poppins', sans-serif;
+justify-content: center;
+
 
 }
 .container{
@@ -143,6 +145,7 @@ color: #FFFFFF;
 }
 .blog-image{
     margin-bottom: 24px;
+    margin-left: 5px;
 }
 .blog-transfer{
     text-decoration: none;
@@ -150,17 +153,20 @@ color: #FFFFFF;
     border: 1px solid #161616;
     padding:5px 16px;
     color: #161616;
+    margin-left: 10px;
   
 }
 .blog-text{
     font-size: 18px;
     font-weight: 600;
+    margin-left: 10px;
 }
 .fa-clock .fa-message{margin-right: 5px;}
 
 .classes{
     display: flex;
      gap:30px;
+     margin-left: 5px;
 }
 
 .hiddden-button{
@@ -169,7 +175,14 @@ color: #FFFFFF;
 
 /* footers detail */
 .footer-details{
-    padding:130px 140px;
+    background-color: #161616;
+   left: 0;
+    bottom: 0;
+    width: 1600px;
+    height: auto;
+}
+ .details{
+  
     background-color: #161616;
     width:100%;
     display: flex;
@@ -177,7 +190,7 @@ color: #FFFFFF;
     gap: 50px;
     justify-items: center;
    align-items: center;
-}
+} 
 .footer-text{
     color:#FFFFFF;
     font-size: 40px;
@@ -186,17 +199,24 @@ color: #FFFFFF;
 .horizintal-line{
     width: 1320px;
 }
+
 .footer-links a{
 text-decoration: none;
 color:#B9B9B9;
 font-size: 16px;
 margin-right: 21px;
 }
-
+.social{
+    text-align: center;
+   
+    padding:15px; 
+}
 .icon-color{
     color: #FFFFFF;
    padding: 0 10px;
-   text-align: center;
+   justify-items: center;
+   align-items: center;
+  
 }
 
 
@@ -277,19 +297,20 @@ grid-template-columns: repeat(3, 1fr);
 media queries
 ------------------- */
 /* responsive for mobile devices */
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:375px){
 
 .main{
-    width:335px;
+    width:100%;
     display: flex;
     flex-direction: column;
     margin: auto;
-    align-items: center;
+  
+    align-content: center;
     
 }
 .container{
     width: 334px;
-    height:549px;
+    height:554px;
 }
 .hero-container{
     flex-direction: column;
@@ -348,14 +369,15 @@ text-align: center;
 }
 .blog-live-detail{
     grid-template-columns: repeat(1,1fr);
+    padding:0 15px;
 }
 .hiddden-button{
     display:none
 }
 .footer-details{
-    width: 100%;
-   
+    width:375px;
    gap:10px;
+   padding: 0;
 }
 .footer-text{
 font-size: 22px;
@@ -371,7 +393,7 @@ align-items: center;
     display: flex;
     flex-direction: column;
   margin-top:20px;
-  gap: 20px;
+  gap:20px;
     text-align: center;
 }
 .social{
@@ -390,7 +412,7 @@ responsive for tab design
 
 .main{
     width: 100%;
-    margin: auto;
+   
 }
     .container{
         width: 734px;  
