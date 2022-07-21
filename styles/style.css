@@ -19,7 +19,7 @@ justify-content: center;
 .container{
     width:1321px;
      height:646px;
-    background-color: #161616;
+    background-color: #030E4F;
     border-radius: 30px;
     
 }
@@ -59,7 +59,7 @@ justify-content: center;
 
 .animated:hover{
     border : 5px solid rgb(220, 35, 72);
-    background-color: #161616;
+    background-color: #F49F1C;
     color:#FFFFFF
 }
 
@@ -95,7 +95,7 @@ justify-content: center;
 .blogs{
 width: 312px;
 height: 312px;
-background-color:#161616;
+background-color:#030E4F;
 border-radius: 10px;
 margin-right: 24px;
 padding: 30px;
@@ -123,10 +123,10 @@ padding: 30px;
 .items-one{padding: 17px 39px;}
 .items-two{padding: 17px 80px;}
 .items-three{padding: 17px 102px;
-background-color: #3a3939;
+background-color: #F49F1C;
 color: #FFFFFF;
 }
-.item-new-style{background-color: #3a3939;
+.item-new-style{background-color: #F49F1C;
     color: #FFFFFF;
     padding: 17px 39px;}
     .item-new-style-third{
@@ -134,6 +134,12 @@ color: #FFFFFF;
         background-color: #ffffff;
         color: #000000;
     }
+    .added{background-color: #F49F1C;
+        color: #FFFFFF;}
+        .item-added{
+            background-color: #ffffff;
+        color: #000000;
+        }
 
 /* blog live */
 
@@ -175,7 +181,7 @@ color: #FFFFFF;
 
 /* footers detail */
 .footer-details{
-    background-color: #161616;
+    background-color: #030E4F;
    left: 0;
     bottom: 0;
     width: 1600px;
@@ -183,7 +189,7 @@ color: #FFFFFF;
 }
  .details{
   
-    background-color: #161616;
+    background-color: #030E4F;
     width:100%;
     display: flex;
     flex-direction:column;
